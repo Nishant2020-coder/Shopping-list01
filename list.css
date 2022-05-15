@@ -1,0 +1,78 @@
+body {
+    background-image: url('linedpaper/linedpaper.png');
+    width: 600px;
+    height: 800px;
+    margin: 5rem auto ;
+    padding: 50px;
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 30px;
+    box-shadow: 5px 10px 40px 10px rgb(245, 227, 226);
+  }
+  
+  form {
+    color: #193a52;
+    font-size: 22px;
+  }
+  
+  input[type="text"]{
+    background-color : #f8fcfc;
+    border-radius: 5px;
+  }
+  
+  #addNeed {
+    background-color : #f5fafa;
+    color: #415b6d;
+    border-radius: 3px;
+  }
+  
+  #addHave {
+    background-color : #f5fafa;
+    color: #2e4e63;
+    border-radius: 3px;
+  }
+  
+  h1 {
+    color: #314258;
+    font-size: 50px;
+    text-decoration: underline;
+  }
+  
+  h2 {
+    color: #502f09;
+    font-size: 42px;
+    letter-spacing: -2px;
+    text-align: left;
+  }
+  .list {
+    color: #555;
+    font-size: 22px;
+    padding: 0 !important;
+    width: 500px;
+    border: 1px solid #c58c8c;
+  }
+  .list li {
+    list-style: none;
+    background-color : #f8f8f8;
+    border-bottom: 1px dotted rgb(204, 174, 174);
+    text-indent: 25px;
+    height: auto;
+    padding: 10px;
+    text-transform: capitalize;
+    color: #6861cc;
+  }
+  li a {
+    float: right;
+    text-decoration: none;
+    color: red;
+  }
+  
+  @media (-webkit-min-device-pixel-ratio: 2), /* Webkit-based browsers */
+         (min--moz-device-pixel-ratio: 2),    /* Older Firefox browsers (prior to Firefox 16) */
+         (min-resolution: 2dppx),             /* The standard way */
+         (min-resolution: 192dpi)             /* dppx fallback */
+  {
+      body {
+          background-image: url('linedpaper/linedpaper_@2x.png');
+      }
+  }
+  
